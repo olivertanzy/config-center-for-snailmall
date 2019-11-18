@@ -1,6 +1,6 @@
 eureka:
   instance:
-    ip-address: 47.101.31.197
+    ip-address: 127.0.0.1
     prefer-ip-address: true
 spring:
   zipkin:
@@ -9,17 +9,17 @@ spring:
     sampler:
       probability: 1
   rabbitmq:
-    host: 111.231.119.253
+    host: 47.101.31.197
     port: 5672
-    username: root
-    password: root
+    username: tanjun
+    password: 123456
   datasource:
      name: dev
-     url: jdbc:mysql://106.14.163.235:3306/snailmall
+     url: jdbc:mysql://47.101.31.197:3306/snailmall
      username: root
-     password: Sunweiguo2018@
+     password: 123456
 redis:
-    host: 111.231.119.253
+    host: 47.101.31.197
     port: 6379
     max-idle: 5
     max-total: 10
