@@ -1,6 +1,6 @@
 eureka:
   instance:
-    ip-address: 127.0.01
+    ip-address: 127.0.0.1
     prefer-ip-address: true
 spring:
   zipkin:
@@ -25,4 +25,4 @@ redis:
     max-total: 10
     max-wait-millis: 3000
 zk:
-  host: 111.231.119.253
+  host: 47.100.138.93
